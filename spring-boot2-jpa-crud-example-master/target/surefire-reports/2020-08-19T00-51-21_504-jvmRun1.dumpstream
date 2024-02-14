@@ -1,0 +1,19 @@
+# Created on 2020-08-19T00:51:30.380
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-08-19T00:51:30.516
+Unexpected IOException with stream: 2020-08-19 00:51:30.515  INFO 17840 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+
+
+# Created on 2020-08-19T00:51:30.672
+Unexpected IOException with stream: 2020-08-19 00:51:30.671  INFO 17840 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+
